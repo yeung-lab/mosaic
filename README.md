@@ -117,6 +117,17 @@ mosaic/
 
 ---
 
+## Authors
+
+- Alfred Song
+- Brian Sutjiadi
+- Alan Brown
+- Chloe Nobuhara
+- Jeffrey Jopling
+- Serena Yeung-Levy
+
+---
+
 ## Disclaimer
 
 This tool is intended for assistive de-identification workflows only. It is not guaranteed to fully remove all identifiable information.
