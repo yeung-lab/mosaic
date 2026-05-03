@@ -1,6 +1,10 @@
 # Mosaic — Surgical Video De-identification
 
-Manually select and blur frames from surgical videos on your local device. All processing happens on-device; no video data is sent to any external server.
+Mosaic takes a frame-grid approach to surgical video de-identification, displaying the full recording as a large browsable series of still images so reviewers can quickly manually scan and select frames containing identifiable information.
+
+Everything on Mosaic happens on your local device; no video data is sent to any external server.
+
+Unlike off-the-shelf automated de-identification models, which have been reported to either miss sensitive content or blur too aggressively, obscuring clinically relevant detail. Mosaic aims to strike the right balance.
 
 ---
 
