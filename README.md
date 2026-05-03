@@ -13,6 +13,10 @@ Manually select and blur frames from surgical videos on your local device. All p
    - start the local server
    - open your browser to http://localhost:8000
 
+**On first launch, startup takes 2–5 minutes** while Python dependencies and the frontend are installed. Subsequent launches are much faster (~15 seconds). You will receive macOS notifications as each stage completes. If something goes wrong, an error dialog will appear with a description of the failure.
+
+To monitor detailed progress at any time, open `app-launch.log` in the project root — it is updated in real time as the launcher runs.
+
 To stop the app, run `./stop.sh` in terminal.
 
 ---
