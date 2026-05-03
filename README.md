@@ -123,12 +123,14 @@ mosaic/
 
 ## Authors
 
-- Alfred Song
-- Brian Sutjiadi
+- Alfred Song, MD
+- Brian Sutjiadi, MD
 - Alan Brown
-- Chloe Nobuhara
-- Jeffrey Jopling
-- Serena Yeung-Levy
+- Chloe Nobuhara, MD
+- Jeffrey Jopling, MD
+- Serena Yeung-Levy, PhD
+
+For more info, please contact alanb@stanford.edu
 
 ---
 
