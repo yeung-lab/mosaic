@@ -1,0 +1,1 @@
+do shell script "/Users/alanb/Documents/mosaic/start.sh >> /Users/alanb/Documents/mosaic/app-launch.log 2>&1 &"

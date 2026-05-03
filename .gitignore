@@ -1,0 +1,26 @@
+# Python
+backend/venv/
+backend/__pycache__/
+*.pyc
+
+# Node
+frontend/node_modules/
+frontend/build/
+
+# Runtime data (generated on use, should not be committed)
+backend/uploads/
+backend/frames/
+
+# Logs & process files
+*.log
+backend.pid
+
+# macOS
+.DS_Store
+
+# Assets folder (originals already copied to frontend/public/)
+home page/
+
+# Misc
+.Rhistory
+claude.md
