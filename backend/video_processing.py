@@ -5,7 +5,6 @@ import json
 import shutil
 import tempfile
 import threading
-import cv2
 from pathlib import Path
 from typing import List, Dict, Tuple
 
@@ -112,12 +111,6 @@ class VideoProcessor:
                 'frame_number': frame_num
             })
         return frames
-
-    def apply_blur_to_frames(self, frame_paths: List[str], blur_strength: int = 99) -> None:
-        for frame_path in frame_paths:
-            img = cv2.imread(frame_path)
-            blurred = cv2.GaussianBlur(img, (blur_strength, blur_strength), 0)
-            cv2.imwrite(frame_path, blurred)
 
     def _merge_blur_ranges(self, sorted_timestamps: List[float], window: float = 0.2) -> List[Tuple[float, float]]:
         """Merge adjacent/overlapping 0.2s preview windows into contiguous time ranges."""
